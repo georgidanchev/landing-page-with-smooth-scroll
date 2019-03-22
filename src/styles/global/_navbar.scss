@@ -1,0 +1,31 @@
+.navbar {
+  background-color: rgba(0,0,0,.7);
+  position: fixed;
+  display: flex;
+  height: 60px;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+
+  &__wrap {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  &__listItem {
+    margin: 0 1rem;
+    padding: 1rem;
+  }
+
+  &__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #f4f4f4;
+    &:hover {
+      color: skyblue;
+    }
+  }
+}
+

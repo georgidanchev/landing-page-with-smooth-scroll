@@ -1,0 +1,42 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  scroll-snap-align: center;
+
+  width: 100%;
+  height: 100vh;
+
+  &__title, &__text {
+    color: white;
+  }
+
+  &__title {
+    font-size: 4rem;
+  }
+
+  &__text {
+    font-size: 1.5rem;
+  }
+}
+
+
+/* Section Images */
+section#home {
+  background: url('../../src/assets/photo-1510906594845-bc082582c8cc.jpg') no-repeat center center/cover;
+}
+
+section#about {
+  background: url('../../src/assets/photo-1517914408130-2e7c8d4f2cf8.jpg') no-repeat center center/cover;
+}
+
+section#service {
+  background: url('../../src/assets/photo-1529532402930-4c257b112a1d.jpg') no-repeat center center/cover;
+}
+
+section#contact {
+  background: url('../../src/assets/photo-1526470702024-9213b24690c3.jpg') no-repeat center center/cover;
+}
